@@ -26,6 +26,8 @@
     "docker:start": "docker run --env-file ./.env -p 7575:7575 homarr:dev "
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^13.0.0",
+    "@next/eslint-plugin-next": "^13.4.5",
     "@ctrl/deluge": "^4.1.0",
     "@ctrl/qbittorrent": "^6.0.0",
     "@ctrl/shared-torrent": "^4.1.1",
@@ -91,8 +93,6 @@
     "zustand": "^4.3.7"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.0.0",
-    "@next/eslint-plugin-next": "^13.4.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
@@ -119,7 +119,7 @@
     "prettier": "^3.0.0",
     "sass": "^1.56.1",
     "ts-node": "latest",
-    "turbo": "latest",
+    "turbo-freebsd-64": "latest",
     "typescript": "^5.1.0",
     "video.js": "^8.0.3",
     "vite-tsconfig-paths": "^4.2.0",
