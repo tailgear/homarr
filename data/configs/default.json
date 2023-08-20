@@ -62,7 +62,7 @@
 		{
 			"id": "b0c42107-be31-4f40-bbfb-32133b50ed73",
 			"name": "Lidarr",
-			"url": "http://localhost:8686",
+			"url": "http://localhost:8686/",
 			"appearance": {
 				"iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/lidarr.png",
 				"appNameStatus": "normal",
@@ -82,7 +82,7 @@
 			},
 			"behaviour": {
 				"isOpeningNewTab": true,
-				"externalUrl": "http://0.0.0.0:8686"
+				"externalUrl": "http://0.0.0.0:8686/"
 			},
 			"area": {
 				"type": "wrapper",
@@ -206,7 +206,7 @@
 		{
 			"id": "ddfdc128-2dfd-4ec5-b101-59c94d9bd09a",
 			"name": "Readarr",
-			"url": "http://localhost:8787",
+			"url": "http://localhost:8787/",
 			"appearance": {
 				"iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/readarr.png",
 				"appNameStatus": "normal",
@@ -226,7 +226,7 @@
 			},
 			"behaviour": {
 				"isOpeningNewTab": true,
-				"externalUrl": "http://0.0.0.0:8787"
+				"externalUrl": "http://0.0.0.0:8787/"
 			},
 			"area": {
 				"type": "wrapper",
@@ -295,15 +295,8 @@
 				}
 			},
 			"integration": {
-				"type": "radarr",
-				"properties": [
-					{
-						"field": "apiKey",
-						"type": "private",
-						"value": null,
-						"isDefined": true
-					}
-				]
+				"type": null,
+				"properties": []
 			}
 		}
 	],
